@@ -21,6 +21,7 @@ int main(){
         
     printf("\nReturning the student at the top of the List:\n");
     Student top = peek(&s,stud);
+    visualize(s);
     
     printf("\nDeleting the Student Profile at the End\n");
     pop(&s);
